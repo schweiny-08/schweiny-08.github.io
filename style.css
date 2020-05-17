@@ -1,0 +1,12 @@
+body{
+	background-color: #353535;
+	font-family: "Raleway";
+}
+header{
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+.mainPage{
+	padding-bottom: 1.5em;
+}
