@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.col{
+    float: left;
+    width: 30vw;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+
+    border: 2px solid white;
+    margin: 1vw;
+
+    align-content: justify;
+}
+
+img{
+    width:27vw;
+    margin-bottom: 10px;
+}
+
+#doodImg{
+    width: 15vw;
+    margin-right: 10vw;
+    margin-left: 6vw;
+}
+
+.cardLink{
+    margin: 4vw;
+}
+
+#homeButton{
+    border: 2px solid white;
+}
+
+#homeButton:hover{
+    border: 2px solid black;
+}

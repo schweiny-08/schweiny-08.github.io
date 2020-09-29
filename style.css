@@ -1,12 +1,25 @@
 body{
 	background-color: #353535;
 	font-family: "Raleway";
-}
-header{
 	text-align: center;
 	color: white;
-	/* font-size: 5em; */
+
+	margin-top: 30vh;
+	font-size: 4vh;
 }
 .mainPage{
 	padding-bottom: 1.5em;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:visted{
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
 }
