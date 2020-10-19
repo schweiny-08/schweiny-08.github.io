@@ -31,9 +31,9 @@ img{
 }
 
 #doodImg{
-    width: 15vw;
+    width: 10.5vw;
     margin-right: 10vw;
-    margin-left: 6vw;
+    margin-left: 9vw;
 }
 
 .cardLink{
@@ -47,3 +47,8 @@ img{
 #homeButton:hover{
     border: 2px solid black;
 }
+
+a{  
+    /* font-size: 7vw;
+    height: 1vh; */
+} 
