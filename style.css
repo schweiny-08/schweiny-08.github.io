@@ -3,10 +3,15 @@ body{
 	font-family: "Raleway";
 	text-align: center;
 	color: white;
+}
 
+
+
+.mainText{
 	margin-top: 30vh;
 	font-size: 4vh;
 }
+
 .mainPage{
 	padding-bottom: 1.5em;
 }
