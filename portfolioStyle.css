@@ -1,4 +1,13 @@
+
 .card{
     background-color: #353535;
-    border: 0ch;
+    border: 0px;
+}
+
+.mainText{
+    margin-top: 10vh;
+}
+
+.divider{
+    color: white;
 }
