@@ -1,0 +1,10 @@
+<h2>Some Notable Projects</h2>
+<div>
+    <ul class="project">
+        <li *ngFor="let project of projects">
+            <h3>{{ project.title }}</h3>
+            <span><a href="{{ project.githubLink }}">Github</a></span>
+            <span *ngIf="project.otherLink"><a href="{{ project.otherLink }}">View Project</a></span>
+        </li>
+    </ul>
+</div>
